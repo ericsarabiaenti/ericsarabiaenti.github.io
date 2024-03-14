@@ -33,3 +33,21 @@ Para la cursiva se suele utilizar un guion bajo al _principio y al final_ de la 
 #### Negrita y cursiva
 
 Para utilizar dos énfasis lo haremos con dos asteriscos seguidos de un guión bajo de la palabra o palabras a destacar.
+
+### Listas
+
+#### Ordenadas
+
+1. Esto es un elemento
+2. Esto es otro elemento, el segundo
+3. Y un tercero
+
+Las listas necesitan un número y un punto segudio de un espacio y la palabra o palabras a añadir.
+
+#### Sin orden
+
+- Uno
+- Dos
+- Tres
+
+Para la listas sin orden, un guión y un espacio.
