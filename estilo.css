@@ -78,6 +78,6 @@ transform: rotate(360deg);
 
 h1{
 animation-name:cabecera;
-animation-duratio:2s;
+animation-duration:2s;
 animation-iteration-count:infinite;
 }
