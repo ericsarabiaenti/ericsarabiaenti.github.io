@@ -60,11 +60,24 @@ text-align:center;
 
 
 @Keyframes cabecera{
-0% { color: #000000; }
-100% { color: pink; }
+0% {
+color: #000000;
+font-size:16px;
+transform: rotate(0deg)
+}
+50% {
+color: pink; 
+font-size:64px;
+}
+100% { 
+color: pink; 
+font-size:16px;
+transform: rotate(360deg)
+}
 }
 
 h1{
 animation-name:cabecera;
-animation-duration20s;
+animation-duration2s;
+animation-iteration-count:infinite;
 }
