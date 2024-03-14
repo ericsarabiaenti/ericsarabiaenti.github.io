@@ -33,6 +33,7 @@ flex-grow:1;
 text-align:center;
 }
 footer{
+position:sticky;
 background-color:#000000;
 border:5px solid #3e4544;
 color:#ffffff;
@@ -78,6 +79,6 @@ transform: rotate(360deg);
 
 h1{
 animation-name:cabecera;
-animation-duration:2s;
+animation-durationn:2s;
 animation-iteration-count:infinite;
 }
