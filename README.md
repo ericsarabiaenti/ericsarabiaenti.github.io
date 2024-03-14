@@ -65,3 +65,11 @@ Las listas anidadas son listas dentro de listas
 	- ... dentro de otra con orden
 
 Para meter una lista dentro de otra, utilizamos la tabulación.
+
+### Imagenes
+
+Para añadir una imagen hemos de dar una descripcion y el nombre de la imagen (con la ruta si hiciese falta).
+
+![Meme 100%real no fake](porque.jpg)
+
+La sintaxis es: exclamación seguido de una descripción dentro de llaves anguladas, seguido de el nombre de la imagen entre parentesis (sin espacios entre exclamación, llaves anguladas y paréntesis):
