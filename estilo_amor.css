@@ -1,0 +1,73 @@
+h1{
+margin:0;
+font-family: 'Lovers Quarrel', system-ui;
+font-size:300%;
+text-align:center;
+}
+body{
+margin:0;
+background-color:#FFB8E1
+}
+header{
+background-color:#FFB8E1;
+border-bottom:4px solid #B50068;
+}
+header nav a{
+display:block;
+color:#ffffff;
+background-color:#FF0094;
+text-decoration:none;
+padding:8px;
+}
+header nav a:hover{
+background-color:#C90174;
+text-decoration:underline;
+}
+header nav ul{
+display:flex;
+justify-content:space-around;
+list-style:none;
+padding:0;
+margin:0;
+}
+header nav li{
+flex-grow:1;
+text-align:center;
+}
+h2{
+margin:0;
+font-family: 'Love Ya Like A Sister', system-ui;
+text-align:center;
+}
+main {
+border:20px double #FFE5F4
+}
+main p.portada{
+text-align:center;
+}
+body main p.tarta{
+text-align:center;
+}
+main form{
+text-align:center;
+}
+main li a:hover{
+font-size:150%;
+font-style:italic;
+}
+body main p.final{
+margin:0;
+font-family: 'Lovers Quarrel', system-ui;
+text-align:center;
+font-size:150%
+}
+footer{
+background-color:#FF76C5;
+border:5px solid #FF0094;
+color:#ffffff;
+text-align:center;
+}
+footer p{
+margin:0;
+padding:32px 0 32px 0;
+}

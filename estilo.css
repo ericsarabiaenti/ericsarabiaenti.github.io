@@ -1,26 +1,24 @@
 h1{
 margin:0;
-font-family: 'Lovers Quarrel', system-ui;
-font-size:300%;
+font-family: 'Honk', system-ui;
 text-align:center;
 }
 body{
 margin:0;
-background-color:#FFB8E1
 }
 header{
-background-color:#FFB8E1;
-border-bottom:4px solid #B50068;
+background-color:#666666;
+border-bottom:4px solid #000000;
 }
 header nav a{
 display:block;
 color:#ffffff;
-background-color:#FF0094;
+background-color:#202020;
 text-decoration:none;
 padding:8px;
 }
 header nav a:hover{
-background-color:#C90174;
+background-color:#808080;
 text-decoration:underline;
 }
 header nav ul{
@@ -34,40 +32,28 @@ header nav li{
 flex-grow:1;
 text-align:center;
 }
-h2{
-margin:0;
-font-family: 'Love Ya Like A Sister', system-ui;
-text-align:center;
-}
-main {
-border:20px double #FFE5F4
-}
-main p.portada{
-text-align:center;
-}
-body main p.tarta{
-text-align:center;
-}
-main form{
-text-align:center;
-}
-main li a:hover{
-font-size:150%;
-font-style:italic;
-}
-body main p.final{
-margin:0;
-font-family: 'Lovers Quarrel', system-ui;
-text-align:center;
-font-size:150%
-}
 footer{
-background-color:#FF76C5;
-border:5px solid #FF0094;
+background-color:#000000;
+border:5px solid #3e4544;
 color:#ffffff;
 text-align:center;
 }
 footer p{
 margin:0;
 padding:32px 0 32px 0;
+}
+main {
+border:20px groove #12d6b6
+}
+main a:hover{
+font-size:250%;
+font-style:italic;
+}
+body main p.tarta{
+margin:16px 32px 16px 32px;
+padding:16px;
+width:636px;
+}
+main form{
+text-align:center;
 }
