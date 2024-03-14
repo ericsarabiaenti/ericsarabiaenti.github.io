@@ -56,7 +56,7 @@ Para la listas sin orden, un guión y un espacio.
 
 Las listas anidadas son listas dentro de listas
 
-1. Esto es el primer elemnto.
+1. Esto es el primer elemento.
 2. Esto es el segundo elemento.
 	1. Esto es el elemento 2.1
 	2. Esto es el elemento 2.2
