@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title>Logueate en mi pagina!!!</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="estilo.css"/>
+</head>
+<body>
+<header>
+<h1 class="rubik-broken fax-regular">Logueate en mi pagina!!!</h1>
+<nav>
+<ul>
+<li><a href="index.html">Portada</a></li>
+<li><a href="aficiones.html">Aficiones y hobbies</a></li>
+<li><a href="cv.html">Curriculum</a></li>
+<li><a href="about_me.html">Sobre mi</a></li>
+<li><a href="contact.html">Contacto</a></li>
+<li><a href="minigame.html">Minijuego</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<form>
+<h2>Login</h2>
+<p><label for="email_form">Email:</label><input type="text" name="username" id="email_form" placeholder="ejemplo@gmail.com"/></p>
+<p><label for="pass_form">Password:</label><input type="password" name="pass" id="pass_form" placeholder="Tu contraseña"/></p>
+<p><label for="robot_form"> <input type="checkbox" name="robot" id="robot_form"/> ¿Eres un robot?</p>
+<p><input type="button" value="Login" id="button_login" /></p>
+</form>
+<form>
+<h2>Register</h2>
+<p><label for="login_reg">Username:</label><input type="text" name="username" id="login_reg" placeholder="Tu nombre de usuario"/></p>
+<p class="error0"><em id="error0"></em></p>
+<p class="error1"><em id="error1"></em></p>
+<p><label for="email_reg">Email:</label><input type="text" name="email" id="email_reg" placeholder="ejemplo@gmail.com"/></p>
+<p class="error0"><em id="error2"></em></p>
+<p class="error1"><em id="error3"></em></p>
+<p><label for="pass_reg">Password:</label><input type="password" name="pass" id="pass_reg" placeholder="Tu contraseña"/></p>
+<p><label for="reppass_reg">Repeat password:</label><input type="password" name="reppass" id="reppass_reg" placeholder="Repite la contra"/></p>
+<p class="error0"><em id="error4"></em></p>
+<p class="error1"><em id="error5"></em></p>
+<p><label for="robot_reg"> <input type="checkbox" name="robot" id="robot_reg"/> ¿Eres un robot?</p>
+<p><label for="date_reg">Fecha de nacimiento:</label><input type="date" name="date" id="date_reg"/></p>
+<p><input type="button" value="Register" id="button_register"/></p>
+</form>
+</main>
+<script>
+let boton = document.getElementById("button_register");
+boton.addEventListener("click", function(event){
+	let username = document.getElementById("login_reg");
+	let reg_exp = /["']/;
+	let email = document.getElementById("email_reg");
+	let password = document.getElementById("pass_reg");
+	let reppassword = document.getElementById("reppass_reg");
+	if (username.value.length == 0 || password.value.length == 0 || email.value.length == 0 || reppassword.value.length == 0)
+	{
+		alert("Hay uno o mas campos vacios");
+		return;
+	}
+	if (reg_exp.test(username.value))
+	{
+		error1.innerHTML = "ERROR: Uno o más caracteres usados están prohibidos";
+		error1.style.color = "red";
+		error0.innerHTML = "";
+		return;
+	} 
+	if (username.value.length < 4)
+	{
+		error1.innerHTML = "El usuario tiene que tener minimo 4 caracteres";
+		error1.style.color = "red";
+		error0.innerHTML = "";
+	} 
+	else
+	{
+		error1.innerHTML = "";
+		error0.innerHTML = "Usario válido";
+		error0.style.color = "green";
+	}
+	if (email.value.length < 4)
+	{
+		error3.innerHTML = "El email tiene que tener minimo 4 caracteres";
+		error3.style.color = "red";
+		error2.innerHTML = "";
+	}
+	else
+	{
+		error3.innerHTML = "";
+		error2.innerHTML = "Email válido";
+		error2.style.color = "green";
+	}
+	if (password.value.length < 6 || password.value.lenght > 16)
+	{
+		error5.innerHTML = "La contraseña tiene que tener minimo 4 caracteres y maximo 16";
+		error5.style.color = "red";
+		error4.innerHTML = "";
+		return;
+	}
+	if (password.value != reppassword.value)
+	{
+		error5.innerHTML = "Las contraseñas no coinciden";
+		error5.style.color = "red";
+		error4.innerHTML = "";
+	} 
+	else
+	{
+		error5.innerHTML = "";
+		error4.innerHTML = "Las contraseñas coinciden";
+		error4.style.color = "green";
+	}
+});
+</script>
+</body>
+</html>

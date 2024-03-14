@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title>Mi minijuego</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="estilo.css"/>
+</head>
+
+<body>
+<header>
+<h1>Eric Sarabia</h1>
+<nav>
+<ul>
+<li><a href="index.html">Portada</a></li>
+<li><a href="aficiones.html">Aficiones</a></li>
+<li><a href="cv.html">Curriculum</a></li>
+<li><a href="about_me.html">Sobre mi</a></li>
+<li><a href="login.html">Login</a></li>
+<li><a href="contact.html">Contacto</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<form>
+<h2>Adivina el número entre el 1 al 10</h2>
+<p id="mensaje"><em>Pon un numero, dale a enviar y intenta adivinar</em></p>
+<p><label for="numero">Pon el número:</label><input type="number" name="numero" id="numero" placeholder="Pon el numero"/></p>
+<p id="intento"><em>Pon un numero, dale a enviar y intenta adivinar</em></p>
+<p><input type="button" value="Enviar" id="enviar" /></p></form>
+</main>
+<script>
+let numero_rand = Math.floor(Math.random()*10) + 1;
+let adivina = document.getElementById("enviar");
+let intentos = 0;
+console.log(numero_rand);
+adivina.addEventListener ("click", function(event){
+	console.log("enviado");
+	const numero = document.getElementById("numero").value;
+	let mensaje = document.getElementById("mensaje");
+	if (numero === "")
+	{
+		mensaje.innerHTML = "Has de introducir numero";
+		return;
+	}
+	if (numero_rand > numero)
+	{
+		mensaje.innerHTML = "El numero es más grande";
+	}
+	else if (numero_rand < numero)
+	{
+		mensaje.innerHTML = "El numero es más pequeño";
+	}
+	else
+	{
+		mensaje.innerHTML = "Has acertado el numero :)";
+	}
+	intentos++;
+	intento.innerHTML = "LLevas " + intentos + " intentos";
+});
+</script>
+</body>
+</html>

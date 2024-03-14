@@ -1,0 +1,59 @@
+h1{
+margin:0;
+font-family: 'Honk', system-ui;
+text-align:center;
+}
+body{
+margin:0;
+}
+header{
+background-color:#666666;
+border-bottom:4px solid #000000;
+}
+header nav a{
+display:block;
+color:#ffffff;
+background-color:#202020;
+text-decoration:none;
+padding:8px;
+}
+header nav a:hover{
+background-color:#808080;
+text-decoration:underline;
+}
+header nav ul{
+display:flex;
+justify-content:space-around;
+list-style:none;
+padding:0;
+margin:0;
+}
+header nav li{
+flex-grow:1;
+text-align:center;
+}
+footer{
+background-color:#000000;
+border:5px solid #3e4544;
+color:#ffffff;
+text-align:center;
+}
+footer p{
+margin:0;
+padding:32px 0 32px 0;
+}
+main {
+border:20px groove #12d6b6
+}
+main a:hover{
+font-size:250%;
+font-style:italic;
+}
+body main p.tarta{
+margin:16px 32px 16px 32px;
+padding:16px;
+width:636px;
+}
+main form{
+text-align:center;
+}
