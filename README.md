@@ -72,4 +72,8 @@ Para añadir una imagen hemos de dar una descripcion y el nombre de la imagen (c
 
 ![Meme 100%real no fake](porque.jpg)
 
-La sintaxis es: exclamación seguido de una descripción dentro de llaves anguladas, seguido de el nombre de la imagen entre parentesis (sin espacios entre exclamación, llaves anguladas y paréntesis):
+La sintaxis es: exclamación seguido de una descripción dentro de llaves anguladas, seguido de el nombre de la imagen entre parentesis (sin espacios entre exclamación, llaves anguladas y paréntesis).
+
+### Enlances
+
+Los enlaces son parecidos a las imagenes, la diferencia es que no llevan exclamacion delante y se pueden introducir dentro de frases [como esta](https://enti.cat).
