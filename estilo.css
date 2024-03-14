@@ -42,9 +42,6 @@ text-align:center;
 main {
 border:20px double #FFE5F4
 }
-main p.portada{
-display:flex;
-}
 body main p.tarta{
 text-align:center;
 }
