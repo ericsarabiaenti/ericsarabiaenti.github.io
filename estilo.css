@@ -63,7 +63,7 @@ text-align:center;
 0% {
 color: #000000;
 font-size:16px;
-transform: rotate(0deg)
+transform: rotate(0deg);
 }
 50% {
 color: pink; 
@@ -72,7 +72,7 @@ font-size:64px;
 100% { 
 color: #000000; 
 font-size:16px;
-transform: rotate(360deg)
+transform: rotate(360deg);
 }
 }
 
