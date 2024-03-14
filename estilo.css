@@ -61,11 +61,10 @@ text-align:center;
 
 @Keyframes cabecera{
 0% { color: #000000; }
-50% { color: pink; }
-100% { color: #000000; }
+100% { color: pink; }
 }
 
 h1{
 animation-name:cabecera;
-animation-duration:20s;
+animation-duration20s;
 }
