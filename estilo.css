@@ -70,7 +70,7 @@ color: pink;
 font-size:64px;
 }
 100% { 
-color: pink; 
+color: #000000; 
 font-size:16px;
 transform: rotate(360deg)
 }
@@ -78,6 +78,6 @@ transform: rotate(360deg)
 
 h1{
 animation-name:cabecera;
-animation-duration2s;
+animation-duratio:2s;
 animation-iteration-count:infinite;
 }
