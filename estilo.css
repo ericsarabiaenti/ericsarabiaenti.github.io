@@ -43,7 +43,7 @@ main {
 border:20px double #FFE5F4
 }
 main p.portada{
-text-align:center;
+display:flex;
 }
 body main p.tarta{
 text-align:center;
