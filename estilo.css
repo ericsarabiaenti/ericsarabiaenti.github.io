@@ -60,7 +60,7 @@ text-align:center;
 }
 
 
-@Keyframes cabecera{
+@Keyframes body{
 0% {
 color: #000000;
 font-size:16px;
@@ -77,8 +77,7 @@ transform: rotate(360deg);
 }
 }
 
-h1{
-animation-name:cabecera;
-animation-durationn:2s;
-animation-iteration-count:infinite;
+body{
+animation-name:body;
+animation-duration:1s;
 }
